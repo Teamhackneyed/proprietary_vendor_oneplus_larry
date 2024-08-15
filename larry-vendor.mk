@@ -612,6 +612,8 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/larry/proprietary/odm/etc/sensor/config/holi_sx933x_0.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/config/holi_sx933x_0.json \
     vendor/oneplus/larry/proprietary/odm/etc/sensor/sensor_config.json:$(TARGET_COPY_OUT_ODM)/etc/sensor/sensor_config.json \
     vendor/oneplus/larry/proprietary/odm/etc/wifi/bdwlan.bin:$(TARGET_COPY_OUT_ODM)/etc/wifi/bdwlan.bin \
+    vendor/oneplus/larry/proprietary/odm/etc/wifi/bdwlan_in.bin:$(TARGET_COPY_OUT_ODM)/etc/wifi/bdwlan_in.bin \
+    vendor/oneplus/larry/proprietary/odm/etc/wifi/bdwlan_us.bin:$(TARGET_COPY_OUT_ODM)/etc/wifi/bdwlan_us.bin \
     vendor/oneplus/larry/proprietary/odm/etc/wifi/regdb.bin:$(TARGET_COPY_OUT_ODM)/etc/wifi/regdb.bin \
     vendor/oneplus/larry/proprietary/odm/lib/libVDBayerHDR.so:$(TARGET_COPY_OUT_ODM)/lib/libVDBayerHDR.so \
     vendor/oneplus/larry/proprietary/odm/lib/libVDBlurless.so:$(TARGET_COPY_OUT_ODM)/lib/libVDBlurless.so \

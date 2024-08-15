@@ -788,6 +788,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/larry/proprietary/vendor/etc/camera/M_Attribute_Gender_Age_1.0.model.hardcode:$(TARGET_COPY_OUT_VENDOR)/etc/camera/M_Attribute_Gender_Age_1.0.model.hardcode \
     vendor/oneplus/larry/proprietary/vendor/etc/camera/M_FaceAttribute_RGB_age_gender_1.7.1.model.hardcode:$(TARGET_COPY_OUT_VENDOR)/etc/camera/M_FaceAttribute_RGB_age_gender_1.7.1.model.hardcode \
     vendor/oneplus/larry/proprietary/vendor/etc/init/ipa_fws.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/ipa_fws.rc \
+    vendor/oneplus/larry/proprietary/vendor/etc/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf \
     vendor/oneplus/larry/proprietary/vendor/firmware/a615_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a615_zap.b00 \
     vendor/oneplus/larry/proprietary/vendor/firmware/a615_zap.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/a615_zap.b01 \
     vendor/oneplus/larry/proprietary/vendor/firmware/a615_zap.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/a615_zap.b02 \
@@ -1075,6 +1076,7 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/larry/proprietary/vendor/lib64/libsynx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsynx.so \
     vendor/oneplus/larry/proprietary/vendor/lib64/libtfestriping.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libtfestriping.so \
     vendor/oneplus/larry/proprietary/vendor/lib64/libthreadutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libthreadutils.so \
+    vendor/oneplus/larry/proprietary/vendor/lib64/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/sensors.ssc.so \
     vendor/oneplus/larry/proprietary/vendor/lib64/vendor.oplus.hardware.cammidasservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oplus.hardware.cammidasservice@1.0.so \
     vendor/oneplus/larry/proprietary/vendor/lib64/vendor.oplus.hardware.osense.client-V1-ndk_platform.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.oplus.hardware.osense.client-V1-ndk_platform.so \
     vendor/oneplus/larry/proprietary/vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so

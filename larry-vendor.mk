@@ -694,7 +694,6 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/larry/proprietary/odm/lib64/libapsexif.so:$(TARGET_COPY_OUT_ODM)/lib64/libapsexif.so \
     vendor/oneplus/larry/proprietary/odm/lib64/libapsjpeg.so:$(TARGET_COPY_OUT_ODM)/lib64/libapsjpeg.so \
     vendor/oneplus/larry/proprietary/odm/lib64/libapspng.so:$(TARGET_COPY_OUT_ODM)/lib64/libapspng.so \
-    vendor/oneplus/larry/proprietary/odm/lib64/libapsultrahdr.so:$(TARGET_COPY_OUT_ODM)/lib64/libapsultrahdr.so \
     vendor/oneplus/larry/proprietary/odm/lib64/libapsyuv.so:$(TARGET_COPY_OUT_ODM)/lib64/libapsyuv.so \
     vendor/oneplus/larry/proprietary/odm/lib64/libarcsoft_aicolor_image.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_aicolor_image.so \
     vendor/oneplus/larry/proprietary/odm/lib64/libarcsoft_aicolor_video.so:$(TARGET_COPY_OUT_ODM)/lib64/libarcsoft_aicolor_video.so \

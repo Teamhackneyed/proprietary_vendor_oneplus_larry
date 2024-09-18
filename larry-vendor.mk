@@ -614,9 +614,9 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/larry/proprietary/odm/lib/libVDBlurlessAPI_v2.so:$(TARGET_COPY_OUT_ODM)/lib/libVDBlurlessAPI_v2.so \
     vendor/oneplus/larry/proprietary/odm/lib/libVDExternal.so:$(TARGET_COPY_OUT_ODM)/lib/libVDExternal.so \
     vendor/oneplus/larry/proprietary/odm/lib/libVDSuperPhotoAPI.so:$(TARGET_COPY_OUT_ODM)/lib/libVDSuperPhotoAPI.so \
-    vendor/oneplus/larry/proprietary/odm/lib/liblvacfs_wrapper.so:$(TARGET_COPY_OUT_ODM)/lib/liblvacfs_wrapper.so \
-    vendor/oneplus/larry/proprietary/odm/lib/libc++_shared.so:$(TARGET_COPY_OUT_ODM)/lib/libc++_shared.so \
     vendor/oneplus/larry/proprietary/odm/lib/lib_lvacfs.so:$(TARGET_COPY_OUT_ODM)/lib/lib_lvacfs.so \
+    vendor/oneplus/larry/proprietary/odm/lib/libc++_shared.so:$(TARGET_COPY_OUT_ODM)/lib/libc++_shared.so \
+    vendor/oneplus/larry/proprietary/odm/lib/liblvacfs_wrapper.so:$(TARGET_COPY_OUT_ODM)/lib/liblvacfs_wrapper.so \
     vendor/oneplus/larry/proprietary/odm/lib/vendor.oplus.hardware.performance-V1-ndk_platform.so:$(TARGET_COPY_OUT_ODM)/lib/vendor.oplus.hardware.performance-V1-ndk_platform.so \
     vendor/oneplus/larry/proprietary/odm/lib64/android.hardware.biometrics.common-V1-ndk_platform.so:$(TARGET_COPY_OUT_ODM)/lib64/android.hardware.biometrics.common-V1-ndk_platform.so \
     vendor/oneplus/larry/proprietary/odm/lib64/camera/com.qti.sensormodule.ov02b10_macro.bin:$(TARGET_COPY_OUT_ODM)/lib64/camera/com.qti.sensormodule.ov02b10_macro.bin \
@@ -1075,4 +1075,4 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/larry/proprietary/vendor/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.hardware.camera.postproc@1.0-service-impl.so
 
 PRODUCT_PACKAGES += \
-    manifest_oplus_fingerprint
+    manifest_oplus_fingerprint.xml
